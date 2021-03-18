@@ -10,6 +10,7 @@
 	margin: 200px 200px ;
 	position: absolute;
 	opacity: 0.5;
+	z-index: 5;
 }
 .lente2{
 	position: absolute;
@@ -21,6 +22,7 @@
 	border-radius: 50%;
 	margin: 200px 600px;
 	opacity: 0.5;
+	z-index: 6;
 }
 .montura{
 	position: absolute;
@@ -41,6 +43,7 @@
     color:black;
     box-shadow: 10px 420px 0 0 currentColor, 
                 380px 420px 0 0 currentColor;
+	z-index: 2;
                 
 }
 
