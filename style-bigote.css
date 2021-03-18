@@ -1,53 +1,36 @@
-.moustache{
-
-    width: 50px;
-    height: 50px;
-    border-radius:50% ;
-    position:absolute;
-    box-shadow: 
-        125px 350px 0 0 currentColor,
-        185px  350px 0 0 currentColor;
-    left: 340px;
+.mustache{
+    width: 180px;
+    height: 180px;
+    left: 200px;
+    border-radius: 50%;
+    position: absolute;
+    color: black;
+    top: 80px;
+    box-shadow:
+         150px 540px 0 0 currentColor,
+         300px 540px 0 0 currentColor;
 }
-
-.moustache::before{
-    content:  " ";
-    position:absolute;
-    width: 50px;
-    height: 50px;
-    left: 170px;
-    top: 301px;
-    border-bottom:solid 50px currentColor ;
-    border-radius: 0 0 0 40%;
-    transform: rotate(-100deg);
-    transform-origin: right 50px;
-    animation:  shakeleft 1s ease-in-out infinite;
-    
+.mustache::before{
+  content: " ";
+  position: absolute;
+  left: 30px;
+  top: 420px;
+  width: 210px;
+  height: 120px;
+  border-bottom: solid 180px currentColor;
+  border-radius: 0 0 0 100%;
+  transform: rotate(-40deg);
+  transform-origin: right 210px;
 }
-
-.moustache::after{
-    content:  " ";
-    position:absolute;
-    width: 50px;
-    height: 50px;
-    left: 30px;
-    top: 120px;
-    border-bottom:solid 180px currentColor ;
-    border-radius: 0 0 0 100%;
-    transform: rotate(40deg);
-    transform-origin: right 50px;
-    animation:  shakeleft 1s ease-in-out infinite;
-    
-}
-
-@keyframes shakeleft {
-    0%{
-        transform: rotate(-50deg);
-    }
-    0%{
-        transform: rotate(-30deg);
-    }
-    0%{
-        transform: rotate(-50deg);
-    }
+.mustache::after{
+  content: " ";
+  position: absolute;
+  left: 390px;
+  top: 420px;
+  width: 210px;
+  height: 120px;
+  border-bottom: solid 180px currentColor;
+  border-radius: 0 0 100% 0;
+  transform: rotate(40deg);
+  transform-origin: left 210px;
 }

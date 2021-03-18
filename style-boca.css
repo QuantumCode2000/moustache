@@ -1,0 +1,12 @@
+.boca{
+    height: 110px;
+    left: 380px;
+    top: 830px;
+    position: absolute;
+    background-color:black;
+    width: 250px;
+    transform: rotate(0deg);
+    z-index: 1;
+    border-radius: 
+      100% 0% 50% 50% / 0% 0% 100% 100%;
+  }
