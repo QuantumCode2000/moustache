@@ -29,3 +29,15 @@
 	padding: 25px 100px;
 	margin: 275px 400px;
 }
+.ojos {
+    width: 50px;
+    height: 130px;
+    left: 290px;
+    top: 50px;
+    border-radius:20%;
+    position: absolute;
+    color:black;
+    box-shadow: 10px 260px 0 0 currentColor, 
+                380px 260px 0 0 currentColor;
+                
+}
