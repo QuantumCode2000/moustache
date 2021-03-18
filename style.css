@@ -41,3 +41,15 @@
                 380px 260px 0 0 currentColor;
                 
 }
+.cejas{
+    width: 130px;
+    height: 20px;
+    left: 300px;
+    top: -20px;
+    border-radius:10%;
+    position: absolute;
+    color:black;
+    box-shadow: 10px 240px 0 0 currentColor, 
+                350px 240px 0 0 currentColor;
+                transform: rotate(6deg);
+}
