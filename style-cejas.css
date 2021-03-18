@@ -1,12 +1,12 @@
 .cejas{
     width: 130px;
     height: 20px;
-    left: 200px;
-    top: -220px;
+    left: 300px;
+    top: 125px;
     border-radius:10%;
     position: absolute;
     color:black;
     box-shadow: 10px 240px 0 0 currentColor, 
-                300px 240px 0 0 currentColor;
+                360px 240px 0 0 currentColor;
                 transform: rotate(6deg);
 }
