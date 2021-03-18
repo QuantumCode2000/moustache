@@ -43,20 +43,7 @@
                 380px 420px 0 0 currentColor;
                 
 }
-<<<<<<< HEAD
-.cejas{
-    width: 130px;
-    height: 20px;
-    left: 300px;
-    top: -20px;
-    border-radius:10%;
-    position: absolute;
-    color:black;
-    box-shadow: 10px 240px 0 0 currentColor, 
-                350px 240px 0 0 currentColor;
-                transform: rotate(6deg);
-}
-=======
+
 
 h1 {
 	text-transform: Uppercase;
@@ -127,4 +114,4 @@ h2 spam {
 	
 
 
->>>>>>> c9a6afddc9eebcf2b3aaea13ca519ccac4425575
+
