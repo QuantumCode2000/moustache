@@ -90,7 +90,7 @@ h2 spam {
 	width: 50px;
 	height: 50px;
 	transform: rotate(45deg);
-	top:700px;
+	top:1000px;
 	left: 475px;
 	border-radius: 30%;
 	border: 5px solid;
@@ -108,7 +108,7 @@ h2 spam {
 	-ms-transform: rotate(45deg) skew(15deg, 15deg);
 	-o-transform: rotate(45deg) skew(15deg, 15deg);
 	transform: rotate(45deg) skew(15deg, 15deg);
-	top: 750px;
+	top: 1050px;
 	left: 450px;
 }
 
